@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    text-align: center;
+    color: #40514E;
+    
+    font-family: 'Merriweather', serif;
+}
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.62rem ;
+    
+    color: #66BFBF;
+    
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    padding-bottom: 10px;
+}
+
+h3{
+ color: #11999E;
+ font-family: 'Montserrat', sans-serif;
+ 
+}
+a{
+   color: #11999E;
+   text-decoration: none;
+   margin-right: 30px;
+}
+
+p{
+    color:#40514E;
+    line-height: 2;
+}
+
+hr {
+    border-style: dotted none none;
+    border-width: 7px;
+    border-color: #EAF6F6;
+   
+    width:5%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.container__top{
+    background-color: #ecf4f3;
+    padding-top: 100px;
+    position: relative;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    
+}
+.skill-row-img-1{
+    width: 25%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;;
+}
+.skill-row-img-2{
+    width: 25%;
+    border-radius: 50%;
+    float: right;
+    margin-left: 30px;;
+}
+/* .skill-row-p-1{
+    clear: left;
+}
+.skill-row-p-2{
+    clear: right;
+} */
+
+.title__sub {
+    font-weight: normal;
+}
+
+.container__middle{
+    margin: 100px 0;
+}
+
+.container__bottom{
+    background-color: #66BFBF;
+    margin: 0;
+    padding: 20px;
+}
+
+
+
+.cloud__bottom {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.cloud__top  {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.intro{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.btn {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 1rem;
+    font-weight: 100;
+    padding: 15px;
+    background-color: #66BFBF;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+ }
+ 
+
+
+ #copyright{
+     color:#EAF6F6;
+ }
